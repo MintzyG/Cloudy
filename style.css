@@ -1,0 +1,134 @@
+html {
+  color: white;
+  background-color: lightblue;
+  background: url("./clouds.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+a {
+  margin: 10px;
+}
+
+i {
+  cursor: pointer;
+}
+
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.upper {
+  padding: 5%;
+}
+
+outside {
+  text-align: center;
+}
+
+.glass {
+  text-align: center;
+  background: rgba(255, 255, 255, .1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(8px);
+  width: 65%;
+}
+
+header {
+  padding-top: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+header .glass {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  text-align: justify;
+  align-items: center;
+}
+
+.content .glass {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+footer .glass {
+  width: auto;
+}
+
+.social_links {
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.image_container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.separator {
+  max-width: 50%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  transform: scale(1.3, 0.4);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.text {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
